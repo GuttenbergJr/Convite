@@ -177,6 +177,7 @@ body {
     
         #prev, #prox{
             height: 10vh;
+            cursor: pointer;
         }
     
         .names{
@@ -204,7 +205,7 @@ body {
         }
         
         .icon{
-            height: 3vh;
+            height: 5vh;
         }
     
         .line{
