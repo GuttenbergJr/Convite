@@ -1,0 +1,278 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Borel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    background-image: url("img/background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 135vh;
+}
+
+
+    .profile{
+        display: flex;
+        height: 40vh;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    #slide{
+        height: 35vh;
+        border-radius: 50%;
+    }
+
+    #prev, #prox{
+        height: 8vh;
+    }
+
+    .names{
+        height: 13vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+
+    #pigeon_left, #pigeon_right{
+        display: none;
+    }
+
+
+    #descr{
+        font-size: 11vh;
+        font-family: 'Borel', cursive;
+    }
+
+    .dates{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 25vh;
+    }
+
+    .date_start-end{
+        font-size: 5vh;
+    }
+    
+    .icon{
+        height: 3vh;
+    }
+
+    .line{
+        border-bottom: 2px solid black;
+    }
+
+    .description{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        height: 40vh;
+    }
+
+    .description_content{
+        font-size: 3vh;
+        margin: 1vh;
+        font-family: 'Roboto', sans-serif;
+    }
+    
+    .confirm_box{
+        height: 15vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .button-28 {
+        appearance: none;
+        background-color: transparent;
+        border: 2px solid #435d6e;;
+        border-radius: 15px;
+        box-sizing: border-box;
+        color: black;
+        cursor: pointer;
+        display: inline-block;
+        font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+        font-size: 16px;
+        font-weight: 600;
+        line-height: normal;
+        margin: -40px;
+        min-height: 60px;
+        min-width: 0;
+        outline: none;
+        padding: 16px 24px;
+        text-align: center;
+        text-decoration: none;
+        transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+        user-select: none;
+        -webkit-user-select: none;
+        touch-action: manipulation;
+        width: 350px;
+        will-change: transform;
+      }
+      
+      .button-28:disabled {
+        pointer-events: none;
+      }
+      
+      .button-28:hover {
+        color: #435d6e;
+        background-color: #c5d9e9;
+        box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+        transform: translateY(-2px);
+      }
+      
+      .button-28:active {
+        box-shadow: none;
+        transform: translateY(0);
+      }
+
+
+      @media(max-width: 495px){
+        #pigeon_left{
+            display: block;
+            position: absolute;
+            height: 5vh;
+            margin-left: 4vh;
+        }
+    
+        #pigeon_right{
+            display: block;
+            position: absolute;
+            height: 5vh;
+            margin-left: 46vh;
+            margin-top: -25vh;
+            -webkit-transform: scaleX(-1);
+            transform: scaleX(-1);
+        }
+      }
+
+      @media(min-width: 1024px){
+
+
+        body{
+            height: 150vh;
+        }
+        
+        .profile{
+            display: flex;
+            height: 50vh;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+    
+        #slide{
+            height: 40vh;
+            border-radius: 50%;
+        }
+    
+        #prev, #prox{
+            height: 10vh;
+        }
+    
+        .names{
+            height: 13vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+    
+        #descr{
+            font-size: 14vh;
+            font-family: 'Borel', cursive;
+        }
+    
+        .dates{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 25vh;
+        }
+    
+        .date_start-end{
+            font-size: 7vh;
+        }
+        
+        .icon{
+            height: 3vh;
+        }
+    
+        .line{
+            border-bottom: 2px solid black;
+        }
+    
+        .description{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+            height: 40vh;
+        }
+    
+        .description_content{
+            font-size: 4vh;
+            margin: 1vh;
+            font-family: 'Roboto', sans-serif;
+        }
+        
+        .confirm_box{
+            height: 15vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    
+        .button-28 {
+            appearance: none;
+            background-color: transparent;
+            border: 2px solid #435d6e;;
+            border-radius: 15px;
+            box-sizing: border-box;
+            color: black;
+            cursor: pointer;
+            display: inline-block;
+            font-family: Roobert,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+            font-size: 16px;
+            font-weight: 600;
+            line-height: normal;
+            margin: -40px;
+            min-height: 60px;
+            min-width: 0;
+            outline: none;
+            padding: 16px 24px;
+            text-align: center;
+            text-decoration: none;
+            transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+            user-select: none;
+            -webkit-user-select: none;
+            touch-action: manipulation;
+            width: 80vw;
+            will-change: transform;
+          }
+          
+          .button-28:disabled {
+            pointer-events: none;
+          }
+          
+          .button-28:hover {
+            color: #435d6e;
+            background-color: #c5d9e9;
+            box-shadow: rgba(0, 0, 0, 0.25) 0 8px 15px;
+            transform: translateY(-2px);
+          }
+          
+          .button-28:active {
+            box-shadow: none;
+            transform: translateY(0);
+          }
+      }
