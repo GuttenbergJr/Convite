@@ -11,7 +11,7 @@ body {
     background-image: url("img/background.png");
     background-repeat: no-repeat;
     background-size: cover;
-    height: 135vh;
+    height: 160vh;
 }
 
 
@@ -75,11 +75,18 @@ body {
         flex-direction: column;
         justify-content: center;
         text-align: center;
-        height: 40vh;
+        height: 60vh;
     }
+
 
     .description_content{
         font-size: 3vh;
+        margin: 1vh;
+        font-family: 'Roboto', sans-serif;
+    }
+
+    .description_content_obs{
+        font-size: 2vh;
         margin: 1vh;
         font-family: 'Roboto', sans-serif;
     }
