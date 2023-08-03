@@ -166,7 +166,7 @@ body {
 
 
         body{
-            height: 150vh;
+            height: 165vh;
         }
         
         .profile{
@@ -224,11 +224,17 @@ body {
             flex-direction: column;
             justify-content: center;
             text-align: center;
-            height: 40vh;
+            height: 60vh;
         }
     
         .description_content{
             font-size: 4vh;
+            margin: 1vh;
+            font-family: 'Roboto', sans-serif;
+        }
+
+        .description_content_obs{
+            font-size: 3vh;
             margin: 1vh;
             font-family: 'Roboto', sans-serif;
         }
